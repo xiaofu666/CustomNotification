@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="B2H-3P-576">
+                                <rect key="frame" x="10" y="215.5" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="无object 无userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="systemNotificationFunc1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgf-mn-MQz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gyA-8N-tlG">
+                                <rect key="frame" x="227" y="215.5" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="无object 无userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="customNotificationFunc1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ueT-HB-me2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hDI-ex-Uh1">
+                                <rect key="frame" x="227" y="700.5" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="删除自定义通知">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="customNotificationFunc4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACe-aA-Pl5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VgC-qW-wlU">
+                                <rect key="frame" x="10" y="54" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.96862745100000003" green="0.31372549020000001" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="系统通知">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9I3-q9-WSf">
+                                <rect key="frame" x="227" y="54" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.96862745100000003" green="0.31372549020000001" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="自定义通知">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="unC-kV-VXz">
+                                <rect key="frame" x="10" y="377" width="177" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="有object 无userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="systemNotificationFunc2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JMX-Oe-sPp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cbU-5D-ozx">
+                                <rect key="frame" x="10" y="539" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="有object 有userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="systemNotificationFunc3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJb-lS-qgP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qc0-k6-jEV">
+                                <rect key="frame" x="227" y="377" width="177" height="152"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="有object 无userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="customNotificationFunc2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0h-yX-gX3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JY5-9M-Tb7">
+                                <rect key="frame" x="227" y="539" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="有object 有userInfo">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="customNotificationFunc3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0wx-eF-ONs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="f5d-mN-I1e">
+                                <rect key="frame" x="10" y="700.5" width="177" height="151.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="删除系统通知">
+                                    <color key="titleColor" systemColor="linkColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="systemNotificationFunc4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kcc-cb-awt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="B2H-3P-576" firstAttribute="top" secondItem="VgC-qW-wlU" secondAttribute="bottom" constant="10" id="1Gj-cu-Nqs"/>
+                            <constraint firstItem="B2H-3P-576" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="2p5-It-p3O"/>
+                            <constraint firstItem="VgC-qW-wlU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="3Zg-He-xRJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hDI-ex-Uh1" secondAttribute="bottom" constant="10" id="6QQ-RI-FYZ"/>
+                            <constraint firstItem="hDI-ex-Uh1" firstAttribute="width" secondItem="9I3-q9-WSf" secondAttribute="width" id="7cv-e2-mLI"/>
+                            <constraint firstItem="unC-kV-VXz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="8Pg-Nz-egJ"/>
+                            <constraint firstItem="f5d-mN-I1e" firstAttribute="height" secondItem="VgC-qW-wlU" secondAttribute="height" id="8db-Ep-4Or"/>
+                            <constraint firstItem="9I3-q9-WSf" firstAttribute="height" secondItem="VgC-qW-wlU" secondAttribute="height" id="9Ue-N7-iAU"/>
+                            <constraint firstItem="cbU-5D-ozx" firstAttribute="width" secondItem="VgC-qW-wlU" secondAttribute="width" id="D0X-GI-NEM"/>
+                            <constraint firstItem="f5d-mN-I1e" firstAttribute="top" secondItem="cbU-5D-ozx" secondAttribute="bottom" constant="10" id="DRh-Vx-TBW"/>
+                            <constraint firstItem="9I3-q9-WSf" firstAttribute="leading" secondItem="VgC-qW-wlU" secondAttribute="trailing" constant="40" id="Dmo-LO-5E4"/>
+                            <constraint firstItem="unC-kV-VXz" firstAttribute="height" secondItem="VgC-qW-wlU" secondAttribute="height" id="Hwx-mx-LjZ"/>
+                            <constraint firstItem="hDI-ex-Uh1" firstAttribute="height" secondItem="9I3-q9-WSf" secondAttribute="height" id="JkF-sr-hV8"/>
+                            <constraint firstItem="hDI-ex-Uh1" firstAttribute="top" secondItem="JY5-9M-Tb7" secondAttribute="bottom" constant="10" id="N2l-N4-IO8"/>
+                            <constraint firstItem="B2H-3P-576" firstAttribute="width" secondItem="VgC-qW-wlU" secondAttribute="width" id="NcW-6x-LaJ"/>
+                            <constraint firstItem="Qc0-k6-jEV" firstAttribute="width" secondItem="9I3-q9-WSf" secondAttribute="width" id="REC-K5-eK5"/>
+                            <constraint firstItem="unC-kV-VXz" firstAttribute="width" secondItem="VgC-qW-wlU" secondAttribute="width" id="WXy-9I-YHf"/>
+                            <constraint firstItem="9I3-q9-WSf" firstAttribute="width" secondItem="VgC-qW-wlU" secondAttribute="width" id="Xbd-Yt-lIB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JY5-9M-Tb7" secondAttribute="trailing" constant="10" id="YN9-5e-Iqv"/>
+                            <constraint firstItem="gyA-8N-tlG" firstAttribute="top" secondItem="9I3-q9-WSf" secondAttribute="bottom" constant="10" id="Z8v-xs-1Wt"/>
+                            <constraint firstItem="Qc0-k6-jEV" firstAttribute="height" secondItem="9I3-q9-WSf" secondAttribute="height" id="ZCY-pO-S4U"/>
+                            <constraint firstItem="gyA-8N-tlG" firstAttribute="height" secondItem="9I3-q9-WSf" secondAttribute="height" id="b26-nE-F6y"/>
+                            <constraint firstItem="9I3-q9-WSf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="cYY-GD-Ote"/>
+                            <constraint firstItem="cbU-5D-ozx" firstAttribute="height" secondItem="VgC-qW-wlU" secondAttribute="height" id="euK-EV-1Ze"/>
+                            <constraint firstItem="B2H-3P-576" firstAttribute="height" secondItem="VgC-qW-wlU" secondAttribute="height" id="fat-Ew-u1j"/>
+                            <constraint firstItem="VgC-qW-wlU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fwH-OY-Sgf"/>
+                            <constraint firstItem="unC-kV-VXz" firstAttribute="top" secondItem="B2H-3P-576" secondAttribute="bottom" constant="10" id="gSN-EE-CEk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDI-ex-Uh1" secondAttribute="trailing" constant="10" id="gvU-Of-IUq"/>
+                            <constraint firstItem="JY5-9M-Tb7" firstAttribute="height" secondItem="9I3-q9-WSf" secondAttribute="height" id="htp-fQ-sat"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qc0-k6-jEV" secondAttribute="trailing" constant="10" id="iAl-jX-uYr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gyA-8N-tlG" secondAttribute="trailing" constant="10" id="iLe-s8-ZsF"/>
+                            <constraint firstItem="cbU-5D-ozx" firstAttribute="top" secondItem="unC-kV-VXz" secondAttribute="bottom" constant="10" id="k7j-g3-jW7"/>
+                            <constraint firstItem="f5d-mN-I1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="mM5-Ld-08I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f5d-mN-I1e" secondAttribute="bottom" constant="10" id="q1E-n9-3lv"/>
+                            <constraint firstItem="Qc0-k6-jEV" firstAttribute="top" secondItem="gyA-8N-tlG" secondAttribute="bottom" constant="10" id="sSr-nA-Zim"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9I3-q9-WSf" secondAttribute="trailing" constant="10" id="tQd-ex-J4A"/>
+                            <constraint firstItem="f5d-mN-I1e" firstAttribute="width" secondItem="VgC-qW-wlU" secondAttribute="width" id="y7Z-es-p1c"/>
+                            <constraint firstItem="cbU-5D-ozx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="yYV-2C-SpF"/>
+                            <constraint firstItem="JY5-9M-Tb7" firstAttribute="width" secondItem="9I3-q9-WSf" secondAttribute="width" id="yZk-6h-edQ"/>
+                            <constraint firstItem="JY5-9M-Tb7" firstAttribute="top" secondItem="Qc0-k6-jEV" secondAttribute="bottom" constant="10" id="ydi-cL-YTv"/>
+                            <constraint firstItem="gyA-8N-tlG" firstAttribute="width" secondItem="9I3-q9-WSf" secondAttribute="width" id="ysb-rm-Dcs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
